@@ -12,8 +12,8 @@ const Home = () => {
             }
         })
     },[])
-    console.log('posts :', JSON.stringify(posts, null, 2))
-    console.log(  typeof posts+"  post length  "+posts.length)
+    // console.log('posts :', JSON.stringify(posts, null, 2))
+    // console.log(  typeof posts+"  post length  "+posts.length)
  if(posts.length==0)
  {
     return (
